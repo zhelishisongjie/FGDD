@@ -44,8 +44,8 @@
 ## 🚀 Usage
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/your-repository-name.git
-   cd your-repository-name
+   git clone https://github.com/zhelishisongjie/FGDD.git
+   cd FGDD
    ```
 2. Create a virtual environment (optional but recommended):
     ```bash

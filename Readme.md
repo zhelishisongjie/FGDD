@@ -5,7 +5,7 @@
 
 <div align="center">    
 
-# FGDD: An Explainable Dataset of Facial Phenotype-Gene-Disease Association in Rare Genetic Diseases 
+# An explainable dataset linking facial phenotypes and genes to rare genetic diseases
 
 </div>
 

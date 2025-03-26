@@ -41,6 +41,23 @@
 - **`LICENSE`**: MIT LICENSE. 
 
 
+## 💡 A Specific Use Case
+<div align="center">
+  <img src="./figures/usecase.jpg" alt="Logo" width="100%">
+  Explainability analysis of model single prediction.
+</div>
+
+Local explanations are concerned with explaining the reasons for individual predictions or decisions, answering the question "Why did the model make this prediction for this sample?" Here, we explain individual patient predictions based on SHAP, a cooperative game-theoretic feature importance calculation method.
+
+Fig shows a local explanation of a patient with a model diagnosis of COFFIN-SIRIS SYNDROME 1 ([OMIM 135900](https://www.omim.org/entry/135900)).
+
+- **Fig (a)** shows the effect of all features on individual prediction results using SHAP analysis, among which the gene _ARID1B_ ([NCBI Gene: 57492](https://www.ncbi.nlm.nih.gov/gene/57492)) has the greatest effect on the prediction results of the model. Searching for _ARID1B_ in the NCBI Gene database, we can find that chromosome and exon count are all _ARID1B_-related information in the figure.
+
+- **Fig (b)** shows the effect of genes on individual predictions in the SHAP analysis, with _ARID1B_ having the largest effect, leading to speculation about the basis of the model's predictions - that _ARID1B_ plays a critical role in the pathogenesis of COFFIN-SIRIS SYNDROME 1. In order to verify the plausibility of this speculation, search for [COFFIN-SIRIS SYNDROME 1](https://www.omim.org/entry/135900) on OMIM and find that it is indeed associated with _ARID1B_. This is also supported by the relevant research[1-3].
+
+- **Fig (c)** shows the effect of facial phenotypes on individual predictions in the SHAP analysis, HP:0000574, HP:0000179, HP:0000232, HP:0000455, HP:0010803 have the greatest impact on the predictions, where HP:0000574, HP:0000179, HP:0000455 in the [HPO](https://hpo.jax.org/app/browse/disease/OMIM:135900) can all be found associated with COFFIN-SIRIS SYNDROME 1.
+
+
 ## 🚀 Usage
 1. Clone the repository:
    ```bash

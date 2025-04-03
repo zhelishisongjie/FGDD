@@ -18,7 +18,7 @@
 
 
 ## 🌐 Overview
-**FGDD are available at [figshare](https://doi.org/10.6084/m9.figshare.28516604.v2)**
+**FGDD are available at [figshare](https://doi.org/10.6084/m9.figshare.28516604.v3)**
 
 <div align="center">
   <img src="./figures/graph abstract.jpg" alt="Logo" width="100%">

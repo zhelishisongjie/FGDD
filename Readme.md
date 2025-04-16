@@ -82,5 +82,5 @@ The full agreement is available in the LICENSE file
 
 ## 📚 Citation
 ```bash
-    
+Song, J., He, M., Ren, S. et al. An explainable dataset linking facial phenotypes and genes to rare genetic diseases. Sci Data 12, 634 (2025). https://doi.org/10.1038/s41597-025-04922-z
 ```

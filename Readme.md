@@ -18,8 +18,9 @@
 
 
 ## 🌐 Overview
-**FGDD are available at [figshare](https://doi.org/10.6084/m9.figshare.28516604.v3)**
-**Full papers are available at [scientific data]([https://doi.org/10.6084/m9.figshare.28516604.v3](https://www.nature.com/articles/s41597-025-04922-z))**
+**FGDD are available at [figshare](https://doi.org/10.6084/m9.figshare.28516604.v3).**  
+
+**Full papers are available at [ScientificData](https://www.nature.com/articles/s41597-025-04922-z).**
 <div align="center">
   <img src="./figures/graph abstract.jpg" alt="Logo" width="100%">
 </div>
